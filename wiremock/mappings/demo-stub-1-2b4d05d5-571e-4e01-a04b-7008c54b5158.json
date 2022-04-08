@@ -1,0 +1,17 @@
+{
+  "id" : "2b4d05d5-571e-4e01-a04b-7008c54b5158",
+  "name" : "demo stub 1",
+  "request" : {
+    "url" : "/products/1",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\n  \"id\": 1,\n  \"name\": \"Product 01\"\n}\n\n",
+    "headers" : { }
+  },
+  "uuid" : "2b4d05d5-571e-4e01-a04b-7008c54b5158",
+  "persistent" : true,
+  "priority" : 5,
+  "insertionIndex" : 0
+}
