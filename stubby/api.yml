@@ -1,0 +1,26 @@
+-  request:
+      url: /products/1
+      method: GET
+   response:
+    - status: 200
+      headers:
+         content-type: application/json
+      file: product_1.json
+
+-  request:
+      url: /products/3
+      method: GET
+   response:
+    - status: 200
+      latency: 5000
+      headers:
+         content-type: application/json
+      file: product_3.json
+
+-  request:
+      url: /products/2
+      method: GET
+   response:
+    - status: 500
+      headers:
+         content-type: application/json
