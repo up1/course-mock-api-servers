@@ -1,0 +1,25 @@
+{
+  "port": 3013,
+  "protocol": "http",
+  "name": "products",
+  "defaultResponse": {
+    "statusCode": 404
+  },
+  "stubs": [
+    {
+      "responses": [
+        {
+          "inject": "<%- stringify(filename, 'products.js') %>"
+        }
+      ],
+      "predicates": [
+        {
+          "contains": {
+            "method": "GET",
+            "path": "/products"
+          }
+        }
+      ]
+    }
+  ]
+}
